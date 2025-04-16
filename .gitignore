@@ -1,8 +1,12 @@
-# Ignore all files in the output folder
-output/
-
 # Ignore all files in the input folder
-input/
+input/*
+# Allow the input folder itself
+!input/
+
+# Ignore all files in the output folder
+output/*
+# Allow the output folder itself
+!output/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
